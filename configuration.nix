@@ -115,10 +115,10 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
-    pkgs.gnome-tweaks
-    pkgs.gnomeExtensions.blur-my-shell
-    pkgs.gnomeExtensions.dash-to-dock
-    pkgs.gnome-shell
+    gnome-tweaks
+    gnomeExtensions.blur-my-shell
+    gnomeExtensions.dash-to-dock
+    gnome-shell
     haruna
     ffmpeg
     ffmpegthumbnailer
